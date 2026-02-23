@@ -13,9 +13,7 @@ With a strong foundation in numerical methods, programming, and applied research
 
 ---
 
-## Projects
-
-A curated selection of recent work. Each card uses a bold project title, a short paragraph overview and links to demos/docs/repos.
+## My projects
 
 <div style="display:flex;flex-wrap:wrap;gap:18px">
 
@@ -23,15 +21,13 @@ A curated selection of recent work. Each card uses a bold project title, a short
 <div style="flex:1 1 420px;min-width:300px;border-radius:10px;padding:18px;">
   <h3 style="margin:0"><strong>ABR-INSIGHTS</strong></h3>
   <p style="margin:10px 0 12px;line-height:1.5">
-    ABR-INSIGHTS is an AI-native information platform that automatically analyzes and summarizes stories from trusted, publicly available news sources. It delivers concise insights across technology, science, AI, global news and business, and ships extended summaries and multilingual audio briefings in English, French, German and Spanish.
+    ABR-INSIGHTS is an AI-native information platform that automatically analyzes and summarizes stories from trusted, publicly available news sources. It delivers concise insights across technology, science, AI, global news and business, and ships extended summaries and multilingual audio briefings in: 🇬🇧 English, 🇫🇷 French, 🇩🇪 German, and 🇪🇸 Spanish.
   </p>
-  <p style="margin:0 0 12px">Role: <strong>Prompt Engineering</strong>, <strong>Python</strong> • Focus: automated summarization, multilingual audio and ingestion pipelines</p>
   <div style="display:flex;gap:10px;align-items:center;margin-bottom:12px">
-    <img alt="ABR News hub" src="assets/abrinsights_news.webp" style="width:130px;height:72px;object-fit:cover;border-radius:6px;"/>
-    <img alt="ABR Tech hub" src="assets/abrinsights_tech.webp" style="width:130px;height:72px;object-fit:cover;border-radius:6px;"/>
-    <img alt="ABR Market hub" src="assets/abrinsights_market.png" style="width:130px;height:72px;object-fit:cover;border-radius:6px;"/>
+    <a href="https://www.abr-insights.news" target="_blank" rel="noopener noreferrer"><img alt="ABR News hub" src="assets/abrinsights_news.webp" style="width:130px;height:72px;object-fit:cover;border-radius:6px;"/></a>
+    <a href="https://www.abr-insights.tech/" target="_blank" rel="noopener noreferrer"><img alt="ABR Tech hub" src="assets/abrinsights_tech.webp" style="width:130px;height:72px;object-fit:cover;border-radius:6px;"/></a>
+    <a href="https://www.abr-insights.site/" target="_blank" rel="noopener noreferrer"><img alt="ABR Market hub" src="assets/abrinsights_market.png" style="width:130px;height:72px;object-fit:cover;border-radius:6px;"/></a>
   </div>
-  <p style="margin:0 0 6px">Links: <a href="#" style="text-decoration:none">Demo</a> · <a href="#" style="text-decoration:none">Docs</a> · <a href="#" style="text-decoration:none">Repo</a></p>
 </div>
 
 <!-- VU card -->
@@ -40,21 +36,11 @@ A curated selection of recent work. Each card uses a bold project title, a short
   <p style="margin:10px 0 12px;line-height:1.5">
     VU is a web-based application to view and analyze finite element results. The project combines Flask, HDF5, VTK and WebAssembly to provide an interactive visualization experience on both web and desktop targets.
   </p>
-  <p style="margin:0 0 12px">Role: <strong>Lead developer</strong> • Focus: cross-platform rendering, WASM pipeline, QML desktop integration</p>
   <div style="display:flex;gap:10px;align-items:center;margin-bottom:12px">
-    <img alt="VU viewer" src="assets/vu-thumbnail.png" style="width:120px;height:72px;object-fit:cover;border-radius:6px;"/>
+    <a href="https://github.com/basavaakula/ScyLab-Tools/releases/tag/VU-v1.0.0" target="_blank" rel="noopener noreferrer"><img alt="VU viewer" src="assets/vu_visu.svg" style="width:360px;height:210px;object-fit:cover;border-radius:6px;"/></a>
   </div>
-  <p style="margin:0 0 6px">Links: <a href="#" style="text-decoration:none">Live demo</a> · <a href="#" style="text-decoration:none">Docs</a> · <a href="#" style="text-decoration:none">Repo</a></p>
 </div>
 
 </div>
 
 ---
-
-If you'd like, I can:
-
-- Replace the placeholder thumbnail paths with actual images from the repo.
-- Add direct links to live demos or documentation pages.
-- Convert cards to a vertical layout better suited for mobile views.
-
-Tell me which you prefer and I'll update `README.md` accordingly.
