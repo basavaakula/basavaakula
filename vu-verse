@@ -1,0 +1,69 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPeA62oedlu9mPxen8kdhMZ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/basavaakula/basavaakula/blob/main/vu-verse\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 821
+        },
+        "id": "42GlYMcl5Oks",
+        "outputId": "cf26755f-55c0-4a2a-ae32-933fca5cd8e5"
+      },
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.lib.display.IFrame at 0x7d97cfa3d7c0>"
+            ],
+            "text/html": [
+              "\n",
+              "        <iframe\n",
+              "            width=\"1100\"\n",
+              "            height=\"800\"\n",
+              "            src=\"https://basavaakula.github.io/vu-verse/viewer.html\"\n",
+              "            frameborder=\"0\"\n",
+              "            allowfullscreen\n",
+              "            \n",
+              "        ></iframe>\n",
+              "        "
+            ]
+          },
+          "metadata": {}
+        }
+      ],
+      "source": [
+        "from IPython.display import IFrame, display\n",
+        "display(IFrame(src=\"https://basavaakula.github.io/vu-verse/viewer.html\", width=1100, height=800))"
+      ]
+    }
+  ]
+}
