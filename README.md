@@ -17,7 +17,18 @@ With a strong foundation in numerical methods, programming, and applied research
 
 <div style="display:flex;flex-wrap:wrap;gap:18px">
 
-<!-- ABR-INSIGHTS card -->
+<div style="flex:1 1 420px;min-width:300px;border-radius:10px;padding:18px;">
+  <h3 style="margin:0"><strong>VU-VERSE</strong></h3>
+  <p style="margin:10px 0 12px;line-height:1.5">
+  VU-VERSE is a unified visualization platform for exploring VTK HDF time-series datasets using Visualization Toolkit and its vtkHDF format. It delivers a single, consistent QML-driven user interface that runs identically on desktop and in the browser via WebAssembly.
+
+The platform is built around cross-platform parity: the same UI layer, interaction model, and VTK rendering pipeline are shared across native and WebAssembly builds. This ensures consistent behavior, feature availability, and performance characteristics between desktop and web deployments, while preserving high-performance interactive visualization and time-series exploration.
+  </p>
+  <div style="display:flex;gap:10px;align-items:center;margin-bottom:12px">
+    <a href="https://basavaakula.github.io/vu-verse/viewer.html" target="_blank" rel="noopener noreferrer"><img alt="ABR News hub" src="assets/vu_verse_post.svg" style="width:100%;height:auto;object-fit:contain;display:block;border-radius:6px;"/></a>
+  </div>
+</div>
+
 <div style="flex:1 1 420px;min-width:300px;border-radius:10px;padding:18px;">
   <h3 style="margin:0"><strong>ABR-INSIGHTS</strong></h3>
   <p style="margin:10px 0 12px;line-height:1.5">
