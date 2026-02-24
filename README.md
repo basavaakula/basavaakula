@@ -25,7 +25,7 @@ With a strong foundation in numerical methods, programming, and applied research
 The platform is built around cross-platform parity: the same UI layer, interaction model, and VTK rendering pipeline are shared across native and WebAssembly builds. This ensures consistent behavior, feature availability, and performance characteristics between desktop and web deployments, while preserving high-performance interactive visualization and time-series exploration.
   </p>
   <div style="display:flex;gap:10px;align-items:center;margin-bottom:12px">
-    <a href="https://basavaakula.github.io/vu-verse/viewer.html" target="_blank" rel="noopener noreferrer"><img alt="ABR News hub" src="assets/vu_verse_post.svg" style="width:75%;height:auto;object-fit:contain;display:block;border-radius:6px;"/></a>
+    <a href="https://basavaakula.github.io/vu-verse/viewer.html" target="_blank" rel="noopener noreferrer"><img alt="ABR News hub" src="assets/vu_verse_post.svg" style="width:76%;height:auto;object-fit:contain;display:block;border-radius:6px;"/></a>
   </div>
 </div>
 
