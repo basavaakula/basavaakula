@@ -29,6 +29,7 @@ The platform is built around cross-platform parity: the same UI layer, interacti
       <li>Demo video: <a href="https://www.youtube.com/watch?v=I-roFNQmASY">YouTube demo</a></li>
       <li>Release notes (desktop): <a href="https://github.com/basavaakula/ScyLab-Tools/releases">Release notes</a></li>
       <li>Web viewer: <a href="https://basavaakula.github.io/vu-verse/viewer.html">Online web viewer</a></li>
+      <li>Docs: <a href="https://basavaakula.github.io/vu-verse/docs_site/index.html">Online web viewer</a></li>
     </ul>
     </p>
   <div style="display:flex;gap:10px;align-items:center;margin-bottom:12px">
