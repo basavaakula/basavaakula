@@ -33,7 +33,6 @@ The platform is built around cross-platform parity: the same UI layer, interacti
     </ul>
     </p>
   <div style="display:flex;gap:10px;align-items:center;margin-bottom:12px">
-    <!-- <a href="https://basavaakula.github.io/vu-verse/viewer.html" target="_blank" rel="noopener noreferrer"><img alt="ABR News hub" src="assets/vu_verse_post.svg" style="width:76%;height:auto;object-fit:contain;display:block;border-radius:6px;"/></a> -->
     <img alt="vu-verse" width="95%" src="assets/vu_verse_post.svg" />
   </div>
 </div>
@@ -56,8 +55,14 @@ The platform is built around cross-platform parity: the same UI layer, interacti
   <p style="margin:10px 0 12px;line-height:1.5">
     VU is a web-based application to view and analyze finite element results. The project combines Flask, HDF5, VTK and WebAssembly to provide an interactive visualization experience on both web and desktop targets.
   </p>
+    <p>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=IancX0b6ZBI">YouTube demo</a></li>
+      <li><a href="https://github.com/basavaakula/ScyLab-Tools/releases">Release notes (desktop)</a></li>
+    </ul>
+    </p>
   <div style="display:flex;gap:10px;align-items:center;margin-bottom:12px">
-    <a href="https://github.com/basavaakula/ScyLab-Tools/releases/tag/VU-v1.0.0" target="_blank" rel="noopener noreferrer"><img alt="VU viewer" src="assets/vu_visu.svg" style="width:360px;height:210px;object-fit:cover;border-radius:6px;"/></a>
+    <img alt="vu" width="95%" src="assets/vu_visu.svg" />
   </div>
 </div>
 
