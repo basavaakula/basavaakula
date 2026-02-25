@@ -27,7 +27,7 @@ The platform is built around cross-platform parity: the same UI layer, interacti
     <p>
     <ul>
       <li><a href="https://www.youtube.com/watch?v=I-roFNQmASY">YouTube demo</a></li>
-      <li><a href="https://github.com/basavaakula/ScyLab-Tools/releases">Release notes (desktop)</a></li>
+      <li><a href="https://github.com/basavaakula/ScyLab-Tools/releases/tag/VU-VERSE">Release notes (desktop)</a></li>
       <li><a href="https://basavaakula.github.io/vu-verse/viewer.html">Web viewer</a></li>
       <li><a href="https://basavaakula.github.io/vu-verse/docs_site/index.html">Docs</a></li>
     </ul>
@@ -58,7 +58,7 @@ The platform is built around cross-platform parity: the same UI layer, interacti
     <p>
     <ul>
       <li><a href="https://www.youtube.com/watch?v=IancX0b6ZBI">YouTube demo</a></li>
-      <li><a href="https://github.com/basavaakula/ScyLab-Tools/releases">Release notes (desktop)</a></li>
+      <li><a href="https://github.com/basavaakula/ScyLab-Tools/releases/tag/VU-v1.0.0">Release notes (desktop)</a></li>
     </ul>
     </p>
   <div style="display:flex;gap:10px;align-items:center;margin-bottom:12px">
