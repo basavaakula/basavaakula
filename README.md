@@ -10,6 +10,7 @@ My core interest lies in building intuitive, efficient tools that bridge advance
 Alongside my professional work, I build and share independent software projects on GitHub 🚀 — including visualization platforms and developer tools that are free to use. These projects reflect my passion for scalable architecture, cross-platform systems, and modern C++-based development 🛠️.
 
 I also explore AI-driven technical content creation 🤖 as a side initiative, experimenting with how modern language models can help analyze and communicate complex scientific and technological ideas more effectively.
+
 ---
 
 ## My projects
