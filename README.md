@@ -3,13 +3,13 @@
 <p align="center">
   <img alt="ScyLab" width="200" src="https://github.com/user-attachments/assets/677df6fb-3a89-4cdc-a679-e012f4adc0cd" />
 </p>
-I’m an engineer with a PhD in Computational Mechanics from École des Mines de Paris 🎓 and currently work as a Senior R&D Engineer focused on scientific software development and high-performance visualization systems.My core interest lies in building intuitive, efficient tools that bridge advanced computational science and practical engineering workflows ⚙️. I enjoy designing clean graphical interfaces, automating complex pipelines, and optimizing numerical and rendering systems to make powerful technology accessible and usable.
+I’m an engineer with a PhD in Computational Mechanics from École des Mines de Paris 🎓 and currently work as a Senior R&D Engineer focused on scientific software development and high-performance visualization systems.
 
+My core interest lies in building intuitive, efficient tools that bridge advanced computational science and practical engineering workflows ⚙️. I enjoy designing clean graphical interfaces, automating complex pipelines, and optimizing numerical and rendering systems to make powerful technology accessible and usable.
 
 Alongside my professional work, I build and share independent software projects on GitHub 🚀 — including visualization platforms and developer tools that are free to use. These projects reflect my passion for scalable architecture, cross-platform systems, and modern C++-based development 🛠️.
 
 I also explore AI-driven technical content creation 🤖 as a side initiative, experimenting with how modern language models can help analyze and communicate complex scientific and technological ideas more effectively.
-
 ---
 
 ## My projects
