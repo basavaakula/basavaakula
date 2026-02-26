@@ -3,13 +3,13 @@
 <p align="center">
   <img alt="ScyLab" width="200" src="https://github.com/user-attachments/assets/677df6fb-3a89-4cdc-a679-e012f4adc0cd" />
 </p>
+I’m an engineer with a PhD in Computational Mechanics from École des Mines de Paris 🎓 and currently work as a Senior R&D Engineer focused on scientific software development and high-performance visualization systems.
 
-Hi — I'm Basava. I hold a PhD in Computational Mechanics from École des Mines de Paris and currently work as a Senior R&D Engineer, with a strong focus on scientific software development. My core expertise lies in building intuitive graphical user interfaces (GUIs), automating complex engineering workflows, and optimizing computational and numerical pipelines. I enjoy bridging the gap between advanced science and practical software by creating efficient, user-friendly tools that support research and engineering teams.
+My core interest lies in building intuitive, efficient tools that bridge advanced computational science and practical engineering workflows ⚙️. I enjoy designing clean graphical interfaces, automating complex pipelines, and optimizing numerical and rendering systems to make powerful technology accessible and usable.
 
-Alongside my core engineering work, I independently explore AI-driven content creation as a technical side initiative, focusing on how modern language models can be used to analyze, summarize, and communicate complex scientific and technological topics more effectively. This work is driven by curiosity and experimentation, and complements my broader interest in scalable, automated knowledge systems.
+Alongside my professional work, I build and share independent software projects on GitHub 🚀 — including visualization platforms and developer tools that are free to use. These projects reflect my passion for scalable architecture, cross-platform systems, and modern C++-based development 🛠️.
 
-With a strong foundation in numerical methods, programming, and applied research, I remain deeply interested in emerging technologies and in improving how complex information is processed, presented, and consumed.
-
+I also explore AI-driven technical content creation 🤖 as a side initiative, experimenting with how modern language models can help analyze and communicate complex scientific and technological ideas more effectively.
 
 ---
 
