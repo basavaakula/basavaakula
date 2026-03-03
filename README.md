@@ -3,13 +3,13 @@
 <p align="center">
   <img alt="ScyLab" width="200" src="https://github.com/user-attachments/assets/677df6fb-3a89-4cdc-a679-e012f4adc0cd" />
 </p>
-I’m an engineer with a PhD in Computational Mechanics from École des Mines de Paris 🎓 and currently work as a Senior R&D Engineer focused on scientific software development and high-performance visualization systems.
+I’m an engineer with a PhD in Computational Mechanics from École des Mines de Paris 🎓 and currently work as a Senior R&D Engineer designing and building web-based applications for simulation workflows.
 
-My core interest lies in building intuitive, efficient tools that bridge advanced computational science and practical engineering workflows ⚙️. I enjoy designing clean graphical interfaces, automating complex pipelines, and optimizing numerical and rendering systems to make powerful technology accessible and usable.
+My core interest lies in building intuitive, efficient tools that bridge advanced computational science with practical engineering workflows ⚙️. I design clean graphical interfaces, automate complex simulation pipelines, and optimize numerical and rendering systems to make powerful technologies accessible, scalable, and production-ready.
 
-Alongside my professional work, I build and share independent software projects on GitHub 🚀 — including visualization platforms and developer tools that are free to use. These projects reflect my passion for scalable architecture, cross-platform systems, and modern C++-based development 🛠️.
+Driven by this focus, I actively develop and release independent software projects on GitHub 🚀 — including web-based visualisation platforms and developer tools built around high-performance and scalable architectures. These projects reflect my commitment to robust system design, cross-platform engineering, and translating complex computational methods into usable, real-world solutions 🛠️.
 
-I also explore AI-driven technical content creation 🤖 as a side initiative, experimenting with how modern language models can help analyze and communicate complex scientific and technological ideas more effectively.
+I also explore AI-driven technical content creation 🤖, experimenting with how modern language models can help analyze and communicate complex scientific and technological ideas more effectively.
 
 ---
 
