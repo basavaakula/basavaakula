@@ -4,13 +4,11 @@
   <img alt="ScyLab" width="200" src="https://github.com/user-attachments/assets/677df6fb-3a89-4cdc-a679-e012f4adc0cd" />
 </p>
 
-I’m an engineer with a PhD in Computational Mechanics from École des Mines de Paris 🎓 and currently work as a Senior R&D Engineer designing and building web-based applications for complex simulation workflows.
+I’m a Senior R&D Engineer with a PhD in Computational Mechanics from École des Mines de Paris 🎓. My core expertise lies in building high-performance, web-based software systems that bridge the gap between complex computational science and practical engineering workflows. Professionally, I focus on optimizing graphics rendering systems, automating highly parallel simulation pipelines, and crafting intuitive visual interfaces that make deep technology reliable in real-world environments.
 
-My core interest lies in building intuitive, highly efficient tools that bridge the gap between advanced computing and practical engineering workflows ⚙️. I specialize in designing responsive graphical interfaces, automating highly parallel pipelines, and optimizing performance so that complex technologies can be deployed reliably in real-world environments.
+Alongside my corporate R&D work, I architect independent developer tools and automation platforms that span the entire web and cloud stack 🚀. My software portfolio—including my browser-based data visualization engines (VU & VU-VERSE), serverless infrastructure platforms (AntiNode with its amAIra AI proxy), and automated media systems (ABR-INSIGHTS)—is driven by a passion for lean, stateless, and event-driven architectures.
 
-Alongside my professional work, I design and release independent developer tools and serverless infrastructure software 🚀. My most recent project is AntiNode—an AI-first, stateless Backend-as-a-Service (BaaS) gateway built to give frontend engineers and indie hackers full-stack capabilities without origin-server overhead. Through these projects, I focus heavily on low-latency system design, cryptographic multi-tenancy, and removing repetitive infrastructural friction for developers 🛠️.
-
-I also explore AI-driven technical content creation and system integrations 🤖, experimenting with how modern language models—like my conversational streaming engine, amAIra—can be securely routed to help analyze, communicate, and interface with complex data more effectively.
+Whether working with web rendering, serverless cloud setups, or automated AI pipelines, my goal remains the same 🛠️: to eliminate repetitive infrastructure friction, keep data secure, and build tools that make development faster and more intuitive.
 
 ---
 
