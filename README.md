@@ -17,22 +17,22 @@ I also explore AI-driven technical content creation and system integrations 🤖
 ## My Projects
 
 ### 🧠 ANTINODE
-AI-First Backend-as-a-Service for Frontend Developers
+🧠 Antinode: AI-First Backend-as-a-Service for Frontend Developers
 
 Antinode is a managed, AI-first Backend-as-a-Service (BaaS) platform that enables frontend engineers, indie hackers, and product teams to ship production-ready full-stack applications without provisioning servers, managing databases, or maintaining complex backend infrastructure.
 
 Simply integrate the lightweight Antinode SDK and remain entirely frontend-first.
 
-* The Flagship Feature: amAIra Native Embeds
+* 🚀 The Flagship Feature: amAIra Native Embeds
 Real-time AI experiences shouldn't require a dedicated backend. Antinode brings amAIra directly into the gateway layer. It is a secure, proxy-native AI assistant framework. Configure commercial LLM providers or local Ollama deployments from your dashboard and instantly embed a high-performance streaming chat experience into your application. Antinode handles token streaming, buffering, request orchestration, and delivery natively—allowing conversational AI to be deployed into static websites with a single script tag and zero custom streaming infrastructure.
 
-* Production Infrastructure Included
+* 🛡️ Production Infrastructure Included
 While amAIra powers user-facing AI experiences, Antinode quietly provides the core services required by modern SaaS applications:
-  - Identity & IAM: Secure authentication and user session management powered by Google Sign-In under the hood. Your frontend never needs to deal directly with OAuth complexity.
-  - BYOK Secrets Vault: Store third-party credentials and private API keys securely using Google Cloud Secret Manager. Secrets are loaded only during serverless execution and are never exposed to client applications.
-  - Billing & Stripe Subscriptions: Connect Stripe to provision subscription plans, launch hosted checkouts, process signed webhooks, and provide self-service customer billing portals with minimal configuration.
+  - 🔒 Identity & IAM: Secure authentication and user session management powered by Google Sign-In under the hood. Your frontend never needs to deal directly with OAuth complexity.
+  - 🔑 BYOK Secrets Vault: Store third-party credentials and private API keys securely using Google Cloud Secret Manager. Secrets are loaded only during serverless execution and are never exposed to client applications.
+  - 💳 Billing & Stripe Subscriptions: Connect Stripe to provision subscription plans, launch hosted checkouts, process signed webhooks, and provide self-service customer billing portals with minimal configuration.
 
-* Perimeter Protection by Design
+* 🛡️ Perimeter Protection by Design
 Antinode is built around strict cryptographic multi-tenancy and edge-level financial circuit breaking. The gateway acts as an active billing shield, automatically detecting and dropping abusive traffic before requests reach your upstream AI providers, helping protect both service availability and usage-based costs.
 
 > Replace backend complexity with frontend autonomy.
