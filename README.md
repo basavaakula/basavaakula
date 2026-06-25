@@ -3,6 +3,7 @@
 <p align="center">
   <img alt="ScyLab" width="200" src="https://github.com/user-attachments/assets/677df6fb-3a89-4cdc-a679-e012f4adc0cd" />
 </p>
+
 I’m an engineer with a PhD in Computational Mechanics from École des Mines de Paris 🎓 and currently work as a Senior R&D Engineer designing and building web-based applications for complex simulation workflows.
 
 My core interest lies in building intuitive, highly efficient tools that bridge the gap between advanced computing and practical engineering workflows ⚙️. I specialize in designing responsive graphical interfaces, automating highly parallel pipelines, and optimizing performance so that complex technologies can be deployed reliably in real-world environments.
@@ -13,154 +14,88 @@ I also explore AI-driven technical content creation and system integrations 🤖
 
 ---
 
-## My projects
+## My Projects
 
-<div style="flex:1 1 420px; min-width:300px; border-radius:12px; padding:24px; line-height:1.6;">
+### 🧠 ANTINODE
+**AI-First Backend-as-a-Service for Frontend Developers**
 
-  <h2 style="margin:0 0 12px 0;">
-    <strong>ANTINODE</strong>
-  </h2>
+Antinode is a managed, AI-first Backend-as-a-Service (BaaS) platform that enables frontend engineers, indie hackers, and product teams to ship production-ready full-stack applications without provisioning servers, managing databases, or maintaining complex backend infrastructure.
 
-  <p>
-    🧠 <strong>Antinode: AI-First Backend-as-a-Service for Frontend Developers</strong>
-  </p>
+Simply integrate the lightweight Antinode SDK and remain entirely **frontend-first**.
 
-  <p>
-    Antinode is a managed, AI-first Backend-as-a-Service (BaaS) platform that enables
-    frontend engineers, indie hackers, and product teams to ship production-ready
-    full-stack applications without provisioning servers, managing databases, or
-    maintaining complex backend infrastructure.
-  </p>
+#### 🚀 The Flagship Feature: amAIra Native Embeds
+Real-time AI experiences shouldn't require a dedicated backend. Antinode brings **amAIra** directly into the gateway layer.
 
-  <p>
-    Simply integrate the lightweight Antinode SDK and remain entirely
-    <strong>frontend-first</strong>.
-  </p>
+amAIra is a secure, proxy-native AI assistant framework. Configure commercial LLM providers or local Ollama deployments from your dashboard and instantly embed a high-performance streaming chat experience into your application.
 
-  <hr style="margin:24px 0; opacity:0.2;" />
+Antinode handles token streaming, buffering, request orchestration, and delivery natively—allowing conversational AI to be deployed into static websites with a single script tag and zero custom streaming infrastructure.
 
-  <h3>🚀 The Flagship Feature: amAIra Native Embeds</h3>
+#### 🛡️ Production Infrastructure Included
+While amAIra powers user-facing AI experiences, Antinode quietly provides the core services required by modern SaaS applications:
 
-  <p>
-    Real-time AI experiences shouldn't require a dedicated backend.
-    Antinode brings <strong>amAIra</strong> directly into the gateway layer.
-  </p>
+* **🔒 Identity & IAM:** Secure authentication and user session management powered by Google Sign-In under the hood. Your frontend never needs to deal directly with OAuth complexity.
+* **🔑 BYOK Secrets Vault:** Store third-party credentials and private API keys securely using Google Cloud Secret Manager. Secrets are loaded only during serverless execution and are never exposed to client applications.
+* **💳 Billing & Stripe Subscriptions:** Connect Stripe to provision subscription plans, launch hosted checkouts, process signed webhooks, and provide self-service customer billing portals with minimal configuration.
 
-  <p>
-    amAIra is a secure, proxy-native AI assistant framework. Configure commercial
-    LLM providers or local Ollama deployments from your dashboard and instantly
-    embed a high-performance streaming chat experience into your application.
-  </p>
+#### 🛡️ Perimeter Protection by Design
+Antinode is built around strict cryptographic multi-tenancy and edge-level financial circuit breaking.
 
-  <p>
-    Antinode handles token streaming, buffering, request orchestration, and
-    delivery natively—allowing conversational AI to be deployed into static
-    websites with a single script tag and zero custom streaming infrastructure.
-  </p>
+The gateway acts as an active billing shield, automatically detecting and dropping abusive traffic before requests reach your upstream AI providers, helping protect both service availability and usage-based costs.
 
-  <hr style="margin:24px 0; opacity:0.2;" />
+> **Replace backend complexity with frontend autonomy.**
 
-  <h3>🛡️ Production Infrastructure Included</h3>
+---
 
-  <p>
-    While amAIra powers user-facing AI experiences, Antinode quietly provides
-    the core services required by modern SaaS applications:
-  </p>
+### 🌐 VU-VERSE
+**Unified Visualization Platform for VTK HDF Time-Series Datasets**
 
-  <ul style="padding-left:20px;">
-    <li>
-      <strong>🔒 Identity & IAM</strong><br />
-      Secure authentication and user session management powered by Google Sign-In
-      under the hood. Your frontend never needs to deal directly with OAuth
-      complexity.
-    </li>
-
-    <li style="margin-top:12px;">
-      <strong>🔑 BYOK Secrets Vault</strong><br />
-      Store third-party credentials and private API keys securely using Google
-      Cloud Secret Manager. Secrets are loaded only during serverless execution
-      and are never exposed to client applications.
-    </li>
-
-    <li style="margin-top:12px;">
-      <strong>💳 Billing & Stripe Subscriptions</strong><br />
-      Connect Stripe to provision subscription plans, launch hosted checkouts,
-      process signed webhooks, and provide self-service customer billing portals
-      with minimal configuration.
-    </li>
-  </ul>
-
-  <hr style="margin:24px 0; opacity:0.2;" />
-
-  <h3>🛡️ Perimeter Protection by Design</h3>
-
-  <p>
-    Antinode is built around strict cryptographic multi-tenancy and edge-level
-    financial circuit breaking.
-  </p>
-
-  <p>
-    The gateway acts as an active billing shield, automatically detecting and
-    dropping abusive traffic before requests reach your upstream AI providers,
-    helping protect both service availability and usage-based costs.
-  </p>
-
-  <p>
-    <strong>Replace backend complexity with frontend autonomy.</strong>
-  </p>
-
-</div>
-
-
-<div style="flex:1 1 420px;min-width:300px;border-radius:10px;padding:18px;">
-  <h3 style="margin:0"><strong>VU-VERSE</strong></h3>
-  <p style="margin:10px 0 12px;line-height:1.5">
-  VU-VERSE is a unified visualization platform for exploring VTK HDF time-series datasets using Visualization Toolkit and its vtkHDF format.
+VU-VERSE is a unified visualization platform for exploring VTK HDF time-series datasets using the Visualization Toolkit and its vtkHDF format.
 
 The platform is built around cross-platform parity: the same UI layer, interaction model, and VTK rendering pipeline are shared across native and WebAssembly builds. This ensures consistent behavior, feature availability, and performance characteristics between desktop and web deployments, while preserving high-performance interactive visualization and time-series exploration.
-  </p>
-    <p>
-    <ul>
-      <li><a href="https://www.youtube.com/watch?v=I-roFNQmASY">YouTube demo</a></li>
-      <li><a href="https://github.com/basavaakula/ScyLab-Tools/releases/tag/VU-VERSE">Release notes (desktop)</a></li>
-      <li><a href="https://basavaakula.github.io/vu-verse/viewer.html">Web viewer</a></li>
-      <li><a href="https://basavaakula.github.io/vu-verse/docs_site/index.html">Docs</a></li>
-    </ul>
-    </p>
-  <div style="display:flex;gap:10px;align-items:center;margin-bottom:12px">
-    <img alt="vu-verse" width="95%" src="assets/vu_verse_post.svg" />
-  </div>
-</div>
 
-<div style="flex:1 1 420px;min-width:300px;border-radius:10px;padding:18px;">
-  <h3 style="margin:0"><strong>ABR-INSIGHTS</strong></h3>
-  <p style="margin:10px 0 12px;line-height:1.5">
-    ABR-INSIGHTS is an AI-native information platform that automatically analyzes and summarizes stories from trusted, publicly available news sources. It delivers concise insights across technology, science, AI, global news and business, and ships extended summaries and multilingual audio briefings in: 🇬🇧 English, 🇫🇷 French, 🇩🇪 German, and 🇪🇸 Spanish.
-  </p>
-  <div style="display:flex;gap:10px;align-items:center;margin-bottom:12px">
-    <a href="https://www.abr-insights.news" target="_blank" rel="noopener noreferrer"><img alt="ABR News hub" src="assets/abrinsights_news.webp" style="width:130px;height:72px;object-fit:cover;border-radius:6px;"/></a>
-    <a href="https://www.abr-insights.tech/" target="_blank" rel="noopener noreferrer"><img alt="ABR Tech hub" src="assets/abrinsights_tech.webp" style="width:130px;height:72px;object-fit:cover;border-radius:6px;"/></a>
-    <a href="https://www.abr-insights.site/" target="_blank" rel="noopener noreferrer"><img alt="ABR Market hub" src="assets/abrinsights_market.png" style="width:130px;height:72px;object-fit:cover;border-radius:6px;"/></a>
-  </div>
-</div>
+#### 🔗 Project Links
+* [📺 YouTube Demo](https://www.youtube.com/watch?v=I-roFNQmASY)
+* [🚀 Release Notes (Desktop)](https://github.com/basavaakula/ScyLab-Tools/releases/tag/VU-VERSE)
+* [🌐 Web Viewer](https://basavaakula.github.io/vu-verse/viewer.html)
+* [📚 Documentation](https://basavaakula.github.io/vu-verse/docs_site/index.html)
 
-<!-- VU card -->
-<div style="flex:1 1 420px;min-width:300px;border-radius:10px;padding:18px;">
-  <h3 style="margin:0"><strong>VU</strong></h3>
-  <p style="margin:10px 0 12px;line-height:1.5">
-    VU is a web-based application to view and analyze finite element results. The project combines Flask, HDF5, VTK and WebAssembly to provide an interactive visualization experience on both web and desktop targets.
-  </p>
-    <p>
-    <ul>
-      <li><a href="https://www.youtube.com/watch?v=IancX0b6ZBI">YouTube demo</a></li>
-      <li><a href="https://github.com/basavaakula/ScyLab-Tools/releases/tag/VU-v1.0.0">Release notes (desktop)</a></li>
-    </ul>
-    </p>
-  <div style="display:flex;gap:10px;align-items:center;margin-bottom:12px">
-    <img alt="vu" width="95%" src="assets/vu_visu.svg" />
-  </div>
-</div>
+<p align="center">
+  <img alt="vu-verse" width="95%" src="assets/vu_verse_post.svg" />
+</p>
 
-</div>
+---
+
+### 📰 ABR-INSIGHTS
+**AI-Native Information Platform**
+
+ABR-INSIGHTS is an AI-native information platform that automatically analyzes and summarizes stories from trusted, publicly available news sources. It delivers concise insights across technology, science, AI, global news, and business, and ships extended summaries and multilingual audio briefings in: 🇬🇧 English, 🇫🇷 French, 🇩🇪 German, and 🇪🇸 Spanish.
+
+#### 🌐 Hub Links
+<p align="left">
+  <a href="https://www.abr-insights.news" target="_blank" rel="noopener noreferrer">
+    <img alt="ABR News hub" src="assets/abrinsights_news.webp" style="width:130px;height:72px;object-fit:cover;border-radius:6px;margin-right:10px;"/>
+  </a>
+  <a href="https://www.abr-insights.tech/" target="_blank" rel="noopener noreferrer">
+    <img alt="ABR Tech hub" src="assets/abrinsights_tech.webp" style="width:130px;height:72px;object-fit:cover;border-radius:6px;margin-right:10px;"/>
+  </a>
+  <a href="https://www.abr-insights.site/" target="_blank" rel="noopener noreferrer">
+    <img alt="ABR Market hub" src="assets/abrinsights_market.png" style="width:130px;height:72px;object-fit:cover;border-radius:6px;"/>
+  </a>
+</p>
+
+---
+
+### 📊 VU
+**Web-Based Finite Element Results Visualizer**
+
+VU is a web-based application to view and analyze finite element results. The project combines Flask, HDF5, VTK, and WebAssembly to provide an interactive visualization experience on both web and desktop targets.
+
+#### 🔗 Project Links
+* [📺 YouTube Demo](https://www.youtube.com/watch?v=IancX0b6ZBI)
+* [🚀 Release Notes (Desktop)](https://github.com/basavaakula/ScyLab-Tools/releases/tag/VU-v1.0.0)
+
+<p align="center">
+  <img alt="vu" width="95%" src="assets/vu_visu.svg" />
+</p>
 
 ---
