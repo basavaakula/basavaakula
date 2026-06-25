@@ -17,47 +17,40 @@ I also explore AI-driven technical content creation and system integrations 🤖
 ## My Projects
 
 ### 🧠 ANTINODE
-**AI-First Backend-as-a-Service for Frontend Developers**
+AI-First Backend-as-a-Service for Frontend Developers
 
 Antinode is a managed, AI-first Backend-as-a-Service (BaaS) platform that enables frontend engineers, indie hackers, and product teams to ship production-ready full-stack applications without provisioning servers, managing databases, or maintaining complex backend infrastructure.
 
-Simply integrate the lightweight Antinode SDK and remain entirely **frontend-first**.
+Simply integrate the lightweight Antinode SDK and remain entirely frontend-first.
 
-#### 🚀 The Flagship Feature: amAIra Native Embeds
-Real-time AI experiences shouldn't require a dedicated backend. Antinode brings **amAIra** directly into the gateway layer.
+* The Flagship Feature: amAIra Native Embeds
+Real-time AI experiences shouldn't require a dedicated backend. Antinode brings amAIra directly into the gateway layer. It is a secure, proxy-native AI assistant framework. Configure commercial LLM providers or local Ollama deployments from your dashboard and instantly embed a high-performance streaming chat experience into your application. Antinode handles token streaming, buffering, request orchestration, and delivery natively—allowing conversational AI to be deployed into static websites with a single script tag and zero custom streaming infrastructure.
 
-amAIra is a secure, proxy-native AI assistant framework. Configure commercial LLM providers or local Ollama deployments from your dashboard and instantly embed a high-performance streaming chat experience into your application.
-
-Antinode handles token streaming, buffering, request orchestration, and delivery natively—allowing conversational AI to be deployed into static websites with a single script tag and zero custom streaming infrastructure.
-
-#### 🛡️ Production Infrastructure Included
+* Production Infrastructure Included
 While amAIra powers user-facing AI experiences, Antinode quietly provides the core services required by modern SaaS applications:
+  - Identity & IAM: Secure authentication and user session management powered by Google Sign-In under the hood. Your frontend never needs to deal directly with OAuth complexity.
+  - BYOK Secrets Vault: Store third-party credentials and private API keys securely using Google Cloud Secret Manager. Secrets are loaded only during serverless execution and are never exposed to client applications.
+  - Billing & Stripe Subscriptions: Connect Stripe to provision subscription plans, launch hosted checkouts, process signed webhooks, and provide self-service customer billing portals with minimal configuration.
 
-* **🔒 Identity & IAM:** Secure authentication and user session management powered by Google Sign-In under the hood. Your frontend never needs to deal directly with OAuth complexity.
-* **🔑 BYOK Secrets Vault:** Store third-party credentials and private API keys securely using Google Cloud Secret Manager. Secrets are loaded only during serverless execution and are never exposed to client applications.
-* **💳 Billing & Stripe Subscriptions:** Connect Stripe to provision subscription plans, launch hosted checkouts, process signed webhooks, and provide self-service customer billing portals with minimal configuration.
+* Perimeter Protection by Design
+Antinode is built around strict cryptographic multi-tenancy and edge-level financial circuit breaking. The gateway acts as an active billing shield, automatically detecting and dropping abusive traffic before requests reach your upstream AI providers, helping protect both service availability and usage-based costs.
 
-#### 🛡️ Perimeter Protection by Design
-Antinode is built around strict cryptographic multi-tenancy and edge-level financial circuit breaking.
-
-The gateway acts as an active billing shield, automatically detecting and dropping abusive traffic before requests reach your upstream AI providers, helping protect both service availability and usage-based costs.
-
-> **Replace backend complexity with frontend autonomy.**
+> Replace backend complexity with frontend autonomy.
 
 ---
 
 ### 🌐 VU-VERSE
-**Unified Visualization Platform for VTK HDF Time-Series Datasets**
+Unified Visualization Platform for VTK HDF Time-Series Datasets
 
 VU-VERSE is a unified visualization platform for exploring VTK HDF time-series datasets using the Visualization Toolkit and its vtkHDF format.
 
 The platform is built around cross-platform parity: the same UI layer, interaction model, and VTK rendering pipeline are shared across native and WebAssembly builds. This ensures consistent behavior, feature availability, and performance characteristics between desktop and web deployments, while preserving high-performance interactive visualization and time-series exploration.
 
-#### 🔗 Project Links
-* [📺 YouTube Demo](https://www.youtube.com/watch?v=I-roFNQmASY)
-* [🚀 Release Notes (Desktop)](https://github.com/basavaakula/ScyLab-Tools/releases/tag/VU-VERSE)
-* [🌐 Web Viewer](https://basavaakula.github.io/vu-verse/viewer.html)
-* [📚 Documentation](https://basavaakula.github.io/vu-verse/docs_site/index.html)
+* Project Links
+  - [📺 YouTube Demo](https://www.youtube.com/watch?v=I-roFNQmASY)
+  - [🚀 Release Notes (Desktop)](https://github.com/basavaakula/ScyLab-Tools/releases/tag/VU-VERSE)
+  - [🌐 Web Viewer](https://basavaakula.github.io/vu-verse/viewer.html)
+  - [📚 Documentation](https://basavaakula.github.io/vu-verse/docs_site/index.html)
 
 <p align="center">
   <img alt="vu-verse" width="95%" src="assets/vu_verse_post.svg" />
@@ -66,12 +59,12 @@ The platform is built around cross-platform parity: the same UI layer, interacti
 ---
 
 ### 📰 ABR-INSIGHTS
-**AI-Native Information Platform**
+AI-Native Information Platform
 
 ABR-INSIGHTS is an AI-native information platform that automatically analyzes and summarizes stories from trusted, publicly available news sources. It delivers concise insights across technology, science, AI, global news, and business, and ships extended summaries and multilingual audio briefings in: 🇬🇧 English, 🇫🇷 French, 🇩🇪 German, and 🇪🇸 Spanish.
 
-#### 🌐 Hub Links
-<p align="left">
+* Hub Links
+<p align="left" style="margin-top: 10px;">
   <a href="https://www.abr-insights.news" target="_blank" rel="noopener noreferrer">
     <img alt="ABR News hub" src="assets/abrinsights_news.webp" style="width:130px;height:72px;object-fit:cover;border-radius:6px;margin-right:10px;"/>
   </a>
@@ -86,13 +79,13 @@ ABR-INSIGHTS is an AI-native information platform that automatically analyzes an
 ---
 
 ### 📊 VU
-**Web-Based Finite Element Results Visualizer**
+Web-Based Finite Element Results Visualizer
 
 VU is a web-based application to view and analyze finite element results. The project combines Flask, HDF5, VTK, and WebAssembly to provide an interactive visualization experience on both web and desktop targets.
 
-#### 🔗 Project Links
-* [📺 YouTube Demo](https://www.youtube.com/watch?v=IancX0b6ZBI)
-* [🚀 Release Notes (Desktop)](https://github.com/basavaakula/ScyLab-Tools/releases/tag/VU-v1.0.0)
+* Project Links
+  - [📺 YouTube Demo](https://www.youtube.com/watch?v=IancX0b6ZBI)
+  - [🚀 Release Notes (Desktop)](https://github.com/basavaakula/ScyLab-Tools/releases/tag/VU-v1.0.0)
 
 <p align="center">
   <img alt="vu" width="95%" src="assets/vu_visu.svg" />
