@@ -15,8 +15,6 @@ I also explore AI-driven technical content creation and system integrations 🤖
 
 ## My projects
 
-<div style="display:flex;flex-wrap:wrap;gap:18px">
-
 <div style="flex:1 1 420px; min-width:300px; border-radius:12px; padding:24px; line-height:1.6;">
 
   <h2 style="margin:0 0 12px 0;">
@@ -71,24 +69,24 @@ I also explore AI-driven technical content creation and system integrations 🤖
 
   <ul style="padding-left:20px;">
     <li>
-      <strong>🔒 Identity & IAM</strong><br>
-      Secure authentication and user session management powered by
-      Google Sign-In under the hood. Your frontend never needs to deal
-      directly with OAuth complexity.
+      <strong>🔒 Identity & IAM</strong><br />
+      Secure authentication and user session management powered by Google Sign-In
+      under the hood. Your frontend never needs to deal directly with OAuth
+      complexity.
     </li>
 
     <li style="margin-top:12px;">
-      <strong>🔑 BYOK Secrets Vault</strong><br>
-      Store third-party credentials and private API keys securely using
-      Google Cloud Secret Manager. Secrets are loaded only during
-      serverless execution and are never exposed to client applications.
+      <strong>🔑 BYOK Secrets Vault</strong><br />
+      Store third-party credentials and private API keys securely using Google
+      Cloud Secret Manager. Secrets are loaded only during serverless execution
+      and are never exposed to client applications.
     </li>
 
     <li style="margin-top:12px;">
-      <strong>💳 Billing & Stripe Subscriptions</strong><br>
-      Connect Stripe to provision subscription plans, launch hosted
-      checkouts, process signed webhooks, and provide self-service
-      customer billing portals with minimal configuration.
+      <strong>💳 Billing & Stripe Subscriptions</strong><br />
+      Connect Stripe to provision subscription plans, launch hosted checkouts,
+      process signed webhooks, and provide self-service customer billing portals
+      with minimal configuration.
     </li>
   </ul>
 
@@ -97,20 +95,18 @@ I also explore AI-driven technical content creation and system integrations 🤖
   <h3>🛡️ Perimeter Protection by Design</h3>
 
   <p>
-    Antinode is built around strict cryptographic multi-tenancy and
-    edge-level financial circuit breaking.
+    Antinode is built around strict cryptographic multi-tenancy and edge-level
+    financial circuit breaking.
   </p>
 
   <p>
-    The gateway acts as an active billing shield, automatically detecting
-    and dropping abusive traffic before requests reach your upstream AI
-    providers—protecting both service availability and usage-based costs.
+    The gateway acts as an active billing shield, automatically detecting and
+    dropping abusive traffic before requests reach your upstream AI providers,
+    helping protect both service availability and usage-based costs.
   </p>
 
   <p>
-    <strong>
-      Replace backend complexity with frontend autonomy.
-    </strong>
+    <strong>Replace backend complexity with frontend autonomy.</strong>
   </p>
 
 </div>
