@@ -17,32 +17,101 @@ I also explore AI-driven technical content creation and system integrations 🤖
 
 <div style="display:flex;flex-wrap:wrap;gap:18px">
 
-<div style="flex:1 1 420px;min-width:300px;border-radius:10px;padding:18px;">
-  <h3 style="margin:0"><strong>ANTINODE</strong></h3>
-  <p style="margin:10px 0 12px;line-height:1.5">
-🧠 Antinode: AI-First BaaS for Frontend Developers
+<div style="flex:1 1 420px; min-width:300px; border-radius:12px; padding:24px; line-height:1.6;">
 
-Antinode is a managed, AI-first Backend-as-a-Service (BaaS) platform that lets frontend engineers, indie hackers, and product teams ship full-stack web apps without provisioning servers, managing databases, or handling complex microservices. Integrate our thin client SDK and stay entirely frontend-first.
+  <h2 style="margin:0 0 12px 0;">
+    <strong>ANTINODE</strong>
+  </h2>
 
-🚀 The Flagship Feature: amAIra Native Embeds
+  <p>
+    🧠 <strong>Antinode: AI-First Backend-as-a-Service for Frontend Developers</strong>
+  </p>
 
-Real-time AI text generation shouldn't require a heavy origin server. Antinode puts amAIra directly into the gateway.
+  <p>
+    Antinode is a managed, AI-first Backend-as-a-Service (BaaS) platform that enables
+    frontend engineers, indie hackers, and product teams to ship production-ready
+    full-stack applications without provisioning servers, managing databases, or
+    maintaining complex backend infrastructure.
+  </p>
 
-amAIra is a secure, proxy-native AI assistant interface. Configure commercial LLMs or local Ollama instances in your dashboard, and mount a high-performance streaming chat widget with zero complex server-side streaming logic or socket management. Antinode handles streaming buffers and token delivery natively, letting you drop conversational AI into static assets with a single script tag.
+  <p>
+    Simply integrate the lightweight Antinode SDK and remain entirely
+    <strong>frontend-first</strong>.
+  </p>
 
-🛡️ The Complete Supporting Infrastructure
+  <hr style="margin:24px 0; opacity:0.2;" />
 
-While amAIra powers user experiences, the gateway silently delivers the essential infrastructure every production SaaS needs:
-<ul>
-<li>🔒 Identity & IAM: Robust, secure user sessions backed by Google Sign-In under the hood. Your frontend code never handles raw OAuth primitives directly.</li>
-<li>🔑 BYOK Secrets Vault: Third-party tokens and private API keys are encrypted via Google Cloud Secret Manager and loaded strictly in-memory during serverless handshakes, preventing client-side exposure.</li>
-<li>💳 Billing & Stripe Subscriptions: Out-of-the-box payment orchestration. Connect Stripe to provision plans, handle checkouts, process signed webhooks, and launch billing portals effortlessly.</li>
-<ul>
-<p>
-🛡️ The Perimeter Protection
+  <h3>🚀 The Flagship Feature: amAIra Native Embeds</h3>
 
-Built with a strict cryptographic multi-tenancy model and edge financial circuit breaking, Antinode acts as an active billing shield—automatically dropping abusive traffic before it hits your upstream AI provider balances. Replace backend complexity with absolute frontend autonomy.
-</p>
+  <p>
+    Real-time AI experiences shouldn't require a dedicated backend.
+    Antinode brings <strong>amAIra</strong> directly into the gateway layer.
+  </p>
+
+  <p>
+    amAIra is a secure, proxy-native AI assistant framework. Configure commercial
+    LLM providers or local Ollama deployments from your dashboard and instantly
+    embed a high-performance streaming chat experience into your application.
+  </p>
+
+  <p>
+    Antinode handles token streaming, buffering, request orchestration, and
+    delivery natively—allowing conversational AI to be deployed into static
+    websites with a single script tag and zero custom streaming infrastructure.
+  </p>
+
+  <hr style="margin:24px 0; opacity:0.2;" />
+
+  <h3>🛡️ Production Infrastructure Included</h3>
+
+  <p>
+    While amAIra powers user-facing AI experiences, Antinode quietly provides
+    the core services required by modern SaaS applications:
+  </p>
+
+  <ul style="padding-left:20px;">
+    <li>
+      <strong>🔒 Identity & IAM</strong><br>
+      Secure authentication and user session management powered by
+      Google Sign-In under the hood. Your frontend never needs to deal
+      directly with OAuth complexity.
+    </li>
+
+    <li style="margin-top:12px;">
+      <strong>🔑 BYOK Secrets Vault</strong><br>
+      Store third-party credentials and private API keys securely using
+      Google Cloud Secret Manager. Secrets are loaded only during
+      serverless execution and are never exposed to client applications.
+    </li>
+
+    <li style="margin-top:12px;">
+      <strong>💳 Billing & Stripe Subscriptions</strong><br>
+      Connect Stripe to provision subscription plans, launch hosted
+      checkouts, process signed webhooks, and provide self-service
+      customer billing portals with minimal configuration.
+    </li>
+  </ul>
+
+  <hr style="margin:24px 0; opacity:0.2;" />
+
+  <h3>🛡️ Perimeter Protection by Design</h3>
+
+  <p>
+    Antinode is built around strict cryptographic multi-tenancy and
+    edge-level financial circuit breaking.
+  </p>
+
+  <p>
+    The gateway acts as an active billing shield, automatically detecting
+    and dropping abusive traffic before requests reach your upstream AI
+    providers—protecting both service availability and usage-based costs.
+  </p>
+
+  <p>
+    <strong>
+      Replace backend complexity with frontend autonomy.
+    </strong>
+  </p>
 
 </div>
 
