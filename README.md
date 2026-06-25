@@ -3,19 +3,49 @@
 <p align="center">
   <img alt="ScyLab" width="200" src="https://github.com/user-attachments/assets/677df6fb-3a89-4cdc-a679-e012f4adc0cd" />
 </p>
-I’m an engineer with a PhD in Computational Mechanics from École des Mines de Paris 🎓 and currently work as a Senior R&D Engineer designing and building web-based applications for simulation workflows.
+I’m an engineer with a PhD in Computational Mechanics from École des Mines de Paris 🎓 and currently work as a Senior R&D Engineer designing and building web-based applications for complex simulation workflows.
 
-My core interest lies in building intuitive, efficient tools that bridge advanced computational science with practical engineering workflows ⚙️. I design clean graphical interfaces, automate complex simulation pipelines, and optimize numerical and rendering systems to make powerful technologies accessible, scalable, and production-ready.
+My core interest lies in building intuitive, highly efficient tools that bridge the gap between advanced computing and practical engineering workflows ⚙️. I specialize in designing responsive graphical interfaces, automating highly parallel pipelines, and optimizing performance so that complex technologies can be deployed reliably in real-world environments.
 
-Driven by this focus, I actively develop and release independent software projects on GitHub 🚀 — including web-based visualisation platforms and developer tools built around high-performance and scalable architectures. These projects reflect my commitment to robust system design, cross-platform engineering, and translating complex computational methods into usable, real-world solutions 🛠️.
+Alongside my professional work, I design and release independent developer tools and serverless infrastructure software 🚀. My most recent project is AntiNode—an AI-first, stateless Backend-as-a-Service (BaaS) gateway built to give frontend engineers and indie hackers full-stack capabilities without origin-server overhead. Through these projects, I focus heavily on low-latency system design, cryptographic multi-tenancy, and removing repetitive infrastructural friction for developers 🛠️.
 
-I also explore AI-driven technical content creation 🤖, experimenting with how modern language models can help analyze and communicate complex scientific and technological ideas more effectively.
+I also explore AI-driven technical content creation and system integrations 🤖, experimenting with how modern language models—like my conversational streaming engine, amAIra—can be securely routed to help analyze, communicate, and interface with complex data more effectively.
 
 ---
 
 ## My projects
 
 <div style="display:flex;flex-wrap:wrap;gap:18px">
+
+<div style="flex:1 1 420px;min-width:300px;border-radius:10px;padding:18px;">
+  <h3 style="margin:0"><strong>ANTINODE</strong></h3>
+  <p style="margin:10px 0 12px;line-height:1.5">
+🧠 Antinode: AI-First BaaS for Frontend Developers
+
+Antinode is a managed, AI-first Backend-as-a-Service (BaaS) platform that lets frontend engineers, indie hackers, and product teams ship full-stack web apps without provisioning servers, managing databases, or handling complex microservices. Integrate our thin client SDK and stay entirely frontend-first.
+
+🚀 The Flagship Feature: amAIra Native Embeds
+
+Real-time AI text generation shouldn't require a heavy origin server. Antinode puts amAIra directly into the gateway.
+
+amAIra is a secure, proxy-native AI assistant interface. Configure commercial LLMs or local Ollama instances in your dashboard, and mount a high-performance streaming chat widget with zero complex server-side streaming logic or socket management. Antinode handles streaming buffers and token delivery natively, letting you drop conversational AI into static assets with a single script tag.
+
+🛡️ The Complete Supporting Infrastructure
+
+While amAIra powers user experiences, the gateway silently delivers the essential infrastructure every production SaaS needs:
+<ul>
+<li>🔒 Identity & IAM: Robust, secure user sessions backed by Google Sign-In under the hood. Your frontend code never handles raw OAuth primitives directly.<li>
+
+<li>🔑 BYOK Secrets Vault: Third-party tokens and private API keys are encrypted via Google Cloud Secret Manager and loaded strictly in-memory during serverless handshakes, preventing client-side exposure.<li>
+
+<li>💳 Billing & Stripe Subscriptions: Out-of-the-box payment orchestration. Connect Stripe to provision plans, handle checkouts, process signed webhooks, and launch billing portals effortlessly.<li>
+<ul>
+
+🛡️ The Perimeter Protection
+
+Built with a strict cryptographic multi-tenancy model and edge financial circuit breaking, Antinode acts as an active billing shield—automatically dropping abusive traffic before it hits your upstream AI provider balances. Replace backend complexity with absolute frontend autonomy.
+</div>
+
 
 <div style="flex:1 1 420px;min-width:300px;border-radius:10px;padding:18px;">
   <h3 style="margin:0"><strong>VU-VERSE</strong></h3>
