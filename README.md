@@ -38,10 +38,12 @@ While amAIra powers user experiences, the gateway silently delivers the essentia
 <li>🔑 BYOK Secrets Vault: Third-party tokens and private API keys are encrypted via Google Cloud Secret Manager and loaded strictly in-memory during serverless handshakes, preventing client-side exposure.</li>
 <li>💳 Billing & Stripe Subscriptions: Out-of-the-box payment orchestration. Connect Stripe to provision plans, handle checkouts, process signed webhooks, and launch billing portals effortlessly.</li>
 <ul>
-
+<p>
 🛡️ The Perimeter Protection
 
 Built with a strict cryptographic multi-tenancy model and edge financial circuit breaking, Antinode acts as an active billing shield—automatically dropping abusive traffic before it hits your upstream AI provider balances. Replace backend complexity with absolute frontend autonomy.
+</p>
+
 </div>
 
 
