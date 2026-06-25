@@ -35,9 +35,7 @@ amAIra is a secure, proxy-native AI assistant interface. Configure commercial LL
 While amAIra powers user experiences, the gateway silently delivers the essential infrastructure every production SaaS needs:
 <ul>
 <li>🔒 Identity & IAM: Robust, secure user sessions backed by Google Sign-In under the hood. Your frontend code never handles raw OAuth primitives directly.<li>
-
 <li>🔑 BYOK Secrets Vault: Third-party tokens and private API keys are encrypted via Google Cloud Secret Manager and loaded strictly in-memory during serverless handshakes, preventing client-side exposure.<li>
-
 <li>💳 Billing & Stripe Subscriptions: Out-of-the-box payment orchestration. Connect Stripe to provision plans, handle checkouts, process signed webhooks, and launch billing portals effortlessly.<li>
 <ul>
 
