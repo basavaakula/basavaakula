@@ -17,7 +17,7 @@ I also explore AI-driven technical content creation and system integrations 🤖
 ## My Projects
 
 ### 🧠 ANTINODE
-🧠 Antinode: AI-First Backend-as-a-Service for Frontend Developers
+Antinode: AI-First Backend-as-a-Service for Frontend Developers
 
 Antinode is a managed, AI-first Backend-as-a-Service (BaaS) platform that enables frontend engineers, indie hackers, and product teams to ship production-ready full-stack applications without provisioning servers, managing databases, or maintaining complex backend infrastructure.
 
