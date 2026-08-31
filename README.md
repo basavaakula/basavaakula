@@ -21,8 +21,12 @@ Antinode is a managed, AI-first Backend-as-a-Service (BaaS) platform that enable
 
 Simply integrate the lightweight Antinode SDK and remain entirely frontend-first.
 
-* 🚀 The Flagship Feature: amAIra Native Embeds
-Real-time AI experiences shouldn't require a dedicated backend. Antinode brings amAIra directly into the gateway layer. It is a secure, proxy-native AI assistant framework. Configure commercial LLM providers or local Ollama deployments from your dashboard and instantly embed a high-performance streaming chat experience into your application. Antinode handles token streaming, buffering, request orchestration, and delivery natively—allowing conversational AI to be deployed into static websites with a single script tag and zero custom streaming infrastructure.
+* 🚀 The Flagship Feature: amAIra Native Embeds & Agentic Workflows
+Real-time AI experiences shouldn't require a dedicated backend. Antinode brings amAIra directly into the gateway layer—a secure, proxy-native AI assistant framework now powered by Agentic Workflows. Configure commercial LLM providers or local Ollama deployments from your dashboard, keep your API keys securely on the gateway, and instantly embed an intelligent, streaming in-app copilot with a single script tag and zero custom streaming infrastructure.
+
+  - 📚 Knowledge (Context Grounding): Supply Markdown playbooks directly to the model so responses are tightly anchored to your specific product documentation and business logic.
+  - 🛠️ Skills (Declarative Actions): Enable visitors to trigger live API actions via /skill-id or natural language. 
+  - 🔒 Zero-Proxy Privacy: Live agent actions run directly from the visitor’s browser using their active AntiNode session. AntiNode orchestrates chat and metadata without ever proxying or storing your private backend data.
 
 * 🛡️ Production Infrastructure Included
 While amAIra powers user-facing AI experiences, Antinode quietly provides the core services required by modern SaaS applications:
@@ -34,6 +38,7 @@ While amAIra powers user-facing AI experiences, Antinode quietly provides the co
 Antinode is built around strict cryptographic multi-tenancy and edge-level financial circuit breaking. The gateway acts as an active billing shield, automatically detecting and dropping abusive traffic before requests reach your upstream AI providers, helping protect both service availability and usage-based costs.
 
 > Replace backend complexity with frontend autonomy.
+
 
 ---
 
