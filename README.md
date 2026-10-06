@@ -14,6 +14,67 @@ Whether working with web rendering, serverless cloud setups, or automated AI pip
 
 ## My Projects
 
+### 🧊 Scenaven
+
+Scenaven is a visualization app for simulation data in the browser, built on an architecture that stays solid as the dataset gets large. 🌐
+
+The server holds the simulation. VTK reads the mesh, keeps the fields, and runs clip, warp, extract, and time. OpenUSD is the scene written for the viewer after every conversion and filter. Three.js draws that scene: camera, color, probes, and playback. WebGL is the renderer you get in a normal tab. WebGPU sits beside it as an opt-in path. Antinode brings secure login, an agent that follows the open scene, and a Python shell that runs next to the data. The same viewer runs in the cloud or on your own machines. ✨
+
+## Visualization architecture
+
+Three layers, each with one job:
+
+- ⚙️ **VTK on the server.** Reads `.vtk`, `.vtkhdf`, `.vtp`, and `.vtu`. Holds the loaded simulation, runs clip, warp, and extract, and prepares frames for playback.
+- 📦 **OpenUSD as the handoff.** After conversion, and again after each filter, the server writes the scene the viewer loads: scene tree, field names and ranges, time steps, visibility, and the surfaces to draw.
+- 🎨 **Three.js in the browser.** Orbit, pan, and zoom. Colormaps, legends, and opacity. Picking, probes, and extract tools. Time controls that ask the server for each frame.
+
+```text
+VTK file
+  → server converts and filters with VTK
+  → OpenUSD scene stored for the session
+  → browser fetches surfaces and field values
+  → Three.js draws the mesh
+```
+
+Sign-in and the 3D view are separate. An auth shell hosts the viewer, so login and the GPU lifecycle stay independent. The shell never imports the WebGL engine. They talk across a versioned message protocol. 🧱
+
+## Rendering
+
+- 🖼️ **WebGL** is the default. The viewport runs in a normal browser tab, with the existing material, colormap, and compose path.
+- ⚡ **WebGPU** is opt-in when the deployment allows it. Unsupported browsers, or a failed init, stay on WebGL.
+
+Client analytics run off the render thread. GPU-owning modules release their resources when a scene is torn down.
+
+## Powered by Antinode
+
+- 🔐 **Secure login.** Identity, session, and entitlements are checked before cloud-bound work. The browser is not the trust root.
+- 🤖 **Agentic flow.** amAIra sits beside the scene. It follows what you loaded, which row is selected, and which time step you are on, and can point you at a control or a Python snippet. Skills only run what the account and connection already allow.
+- 🐍 **Python shell.** A server-side session for short VTK and NumPy snippets against the simulation already open in the view. The code runs next to the data, not in the tab.
+
+## What you can do in the viewer
+
+- 👀 Orbit, pan, and zoom a full-screen 3D view
+- 🎨 Color by a scalar field, with colormap, opacity, and legend
+- ✂️ Clip, warp, or extract a region. Filters rebuild the surface on the server, then show up in the scene tree
+- ⏱️ Play through time when the dataset has more than one step
+- 💬 Ask amAIra about the scene, a field, or a filter
+- 🐍 Run a short Python snippet on that same simulation
+
+## Deploy modes
+
+Same viewer bundle. Same conversion pipeline. Storage, auth context, and which tools are on are what change.
+
+- ☁️ **Cloud.** Hosted viewer, Antinode sign-in, storage per account. A cloud preview can start from curated examples. Uploads, filters, Python, and simulation skills turn on when cloud services are enabled for the connection.
+- 🐳 **On-prem.** The same stack in Docker on your own network, with data on a local volume. Mesh API and the viewer UI run as containers you control.
+
+Switch between them from **Infrastructure** in the viewer.
+
+👉 https://www.scenaven.site
+
+<img width="1398" height="864" alt="Screenshot 2026-10-06 at 05 23 03" src="https://github.com/user-attachments/assets/955d45af-ce59-4713-a88b-c436ee62da12" />
+
+
+
 ### 🧠 ANTINODE
 Antinode: AI-First Backend-as-a-Service for Frontend Developers
 
