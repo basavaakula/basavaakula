@@ -20,7 +20,7 @@ Scenaven is a visualization app for simulation data, built on a **hybrid technol
 
 Each layer does one job, and the jobs stay together. **VTK** on the server holds the simulation: meshes, fields, filters, and time. **OpenUSD** carries the scene into the browser. **Three.js** draws it, with **WebGL** as the default renderer and **WebGPU** as an opt-in path. **Antinode** runs across the product for secure login, an agent beside the open scene, and a Python shell next to the data. The same stack ships for the **cloud** and for **on-prem**. ✨
 
-# Visualization architecture
+* Visualization architecture
 
 Three layers, each with one job:
 
