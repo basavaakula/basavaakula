@@ -16,9 +16,9 @@ Whether working with web rendering, serverless cloud setups, or automated AI pip
 
 ### 🧊 Scenaven
 
-Scenaven is a visualization app for simulation data in the browser, built on an architecture that stays solid as the dataset gets large. 🌐
+Scenaven is a visualization app for simulation data, built on a **hybrid technology stack**. That mix is what makes it unique. 🌐
 
-The server holds the simulation. VTK reads the mesh, keeps the fields, and runs clip, warp, extract, and time. OpenUSD is the scene written for the viewer after every conversion and filter. Three.js draws that scene: camera, color, probes, and playback. WebGL is the renderer you get in a normal tab. WebGPU sits beside it as an opt-in path. Antinode brings secure login, an agent that follows the open scene, and a Python shell that runs next to the data. The same viewer runs in the cloud or on your own machines. ✨
+Each layer does one job, and the jobs stay together. **VTK** on the server holds the simulation: meshes, fields, filters, and time. **OpenUSD** carries the scene into the browser. **Three.js** draws it, with **WebGL** as the default renderer and **WebGPU** as an opt-in path. **Antinode** runs across the product for secure login, an agent beside the open scene, and a Python shell next to the data. The same stack ships for the **cloud** and for **on-prem**. ✨
 
 ## Visualization architecture
 
